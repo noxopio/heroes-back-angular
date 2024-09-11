@@ -1,1 +1,7 @@
-<p>list-page works!</p>
+<h1> Heroes </h1>
+
+<ul>
+  <li *ngFor="let hero of heroes">
+    {{hero.superhero | uppercase}}
+  </li>
+</ul>
